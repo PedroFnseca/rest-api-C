@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void log_api(const char *url, const char *method, const char *status_code) {
+void log_api(const char *url, const char *method) {
   char *color;
 
   if (strcmp(method, "GET") == 0) {
