@@ -4,7 +4,6 @@
 #include "handler.h"
 
 #define PORT 8080
-#define color_green "\033[0;32m"
 
 int main() {
     printf("Starting server on port %d\n", PORT);
