@@ -7,7 +7,7 @@
 #define color_green "\033[0;32m"
 
 int main() {
-    printf("%sStart server on port %d\n", color_green, PORT);
+    printf("Starting server on port %d\n", PORT);
 
     struct MHD_Daemon *daemon;
 
