@@ -54,7 +54,7 @@ In this project, I'm using a Postgres database to store user information. The da
 
 5. Access the API at http://localhost:8080
 
-## Endpoints (Work in Progress)
+## Endpoints
 
 This RESTful web server provides the following endpoints (please note that this section is a work in progress):
 
