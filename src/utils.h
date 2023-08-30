@@ -35,10 +35,24 @@ char *simple_message(const char *message_str) {
   return formatted_message;
 }
 
-bool is_valid_route(const char *url, char *route) {
+bool validate_route(const char *url, char *route) {
   return strstr(url, route) != NULL;
 }
 
-bool is_valid_method(const char *method, char *valid_method) {
+bool validate_method(const char *method, char *valid_method) {
   return strcmp(method, valid_method) == 0;
+}
+
+HTTP_response validate_result(char *result) {
+  if (result == NULL) {
+    return (HTTP_response){
+      .body = simple_message("Internal server error"),
+      .status = INTERNAL_SERVER_ERROR
+    };
+  }
+
+  return (HTTP_response){
+    .body = result,
+    .status = OK
+  };
 }

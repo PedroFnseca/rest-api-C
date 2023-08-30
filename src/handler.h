@@ -31,7 +31,7 @@ enum MHD_Result default_handler(void *cls, struct MHD_Connection *connection, co
       };
     }
     
-    else if (is_valid_route(url_str, "/users")) {
+    else if (validate_route(url_str, "/users")) {
       response_api = user_router(url_str, method_str, upload_data);
     }
     
