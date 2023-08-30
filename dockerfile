@@ -3,7 +3,7 @@ FROM gcc:latest
 
 # Instale as dependências necessárias
 RUN apt-get update && \
-    apt-get install -y libmicrohttpd-dev make nginx
+    apt-get install -y libmicrohttpd-dev make nginx libpq-dev
 
 RUN mkdir -p /app
 

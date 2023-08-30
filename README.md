@@ -10,6 +10,9 @@ I've deliberately chosen the C programming language for this project to challeng
 
 My primary goal was to gain a deeper understanding of how APIs function under the hood and how they communicate with the underlying operating system. The C language is exceptionally suited for this purpose due to its low-level nature and direct interaction with hardware and system resources.
 
+## Postgres Database
+In this project, I'm using a Postgres database to store user information. The database is hosted on cloud in the [supabase](https://supabase.com/), and the server communicates with it using the [libpq](https://www.postgresql.org/docs/9.1/libpq.html) library.
+
 ## How to Run the Server
 
 ### Prerequisites:
@@ -29,7 +32,11 @@ My primary goal was to gain a deeper understanding of how APIs function under th
    cd rest-api-C
    ```
 
-3. Running the Server:
+3. Update the Database Credentials
+   - Open the `pg.h` file in the `src` directory.
+   - Update the variables with your database credentials.
+
+4. Running the Server:
    - Using Docker:
      ```bash
      docker build -t rest-api-c .
@@ -45,15 +52,14 @@ My primary goal was to gain a deeper understanding of how APIs function under th
      ./bin/main
      ```
 
-4. Access the API at http://localhost:8080
+5. Access the API at http://localhost:8080
 
 ## Endpoints (Work in Progress)
 
 This RESTful web server provides the following endpoints (please note that this section is a work in progress):
 
-- **GET /:** Welcome message and basic information about the API (not yet implemented).
-- **GET /users:** Retrieve a list of users (not yet implemented).
-- **GET /users/{id}:** Retrieve detailed information about a specific user (not yet implemented).
+- **GET /users:** Retrieve a list of users.
+- **GET /users/{id}:** Retrieve detailed information about a specific user.
 - **POST /users:** Create a new user (not yet implemented).
 - **PUT /users/{id}:** Update information for a specific user (not yet implemented).
 - **DELETE /users/{id}:** Delete a user (not yet implemented).

@@ -1,6 +1,6 @@
 CC = gcc
-CFLAGS = -Wall -g
-LIBS = -lmicrohttpd
+CFLAGS = -Wall -g -I/usr/include/postgresql
+LIBS = -lmicrohttpd -L/usr/lib/x86_64-linux-gnu -lpq
 SRCDIR = src
 BINDIR = bin
 
