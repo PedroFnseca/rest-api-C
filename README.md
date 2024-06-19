@@ -66,12 +66,10 @@ In this project, I'm using a Postgres database to store user information. The da
 
 ## Endpoints
 
-This RESTful web server provides the following endpoints (please note that this section is a work in progress):
+This RESTful web server provides the following endpoints.
 
 - **GET /users:** Retrieve a list of users.
 - **GET /users/{id}:** Retrieve detailed information about a specific user.
 - **POST /users:** Create a new user.
 - **PUT /users/{id}:** Update information for a specific user.
 - **DELETE /users/{id}:** Delete a user.
-
-These endpoints will serve as a starting point for interacting with the API once the development is complete. You can use tools like `curl` or web browsers to perform requests and test the server's functionality. Each endpoint adheres to the principles of a RESTful API, providing clear and predictable behavior.
