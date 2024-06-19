@@ -1,11 +1,12 @@
 # A Simple RESTful Web Server in PURE C
 <div align=center>
-   <a src="./README-PT.README-PT.md">
-   Portuguese version
+   <a href="./README-PT.md">
+   Versão em Português
    </a>
    |
-   <a src="https://medium.com/@pedrofnseca/evoluindo-como-desenvolvedor-minha-experi%C3%AAncia-com-a-api-feita-em-c-69b758801c91" target="_blank">
-   Article 
+   <a href="https://medium.com/@pedrofnseca/evoluindo-como-desenvolvedor-minha-experi%C3%AAncia-com-a-api-feita-em-c-69b758801c91" target="_blank">
+   Article
+   </a>
 </div>
 <br>
 
