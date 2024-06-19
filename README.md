@@ -1,8 +1,17 @@
 # A Simple RESTful Web Server in PURE C
+<div align=center>
+   <a src="./README-PT.README-PT.md">
+   Portuguese version
+   </a>
+   |
+   <a src="https://medium.com/@pedrofnseca/evoluindo-como-desenvolvedor-minha-experi%C3%AAncia-com-a-api-feita-em-c-69b758801c91" target="_blank">
+   Article 
+</div>
+<br>
 
 RESTful web server in C using [libmicrohttpd](https://www.gnu.org/software/libmicrohttpd/), a lightweight HTTP server library.
 
-> For a detailed example, you can refer to the [libmicrohttpd manual](https://www.gnu.org/software/libmicrohttpd/manual/libmicrohttpd.html#Simple-HTTP-server-example).
+For a detailed example, you can refer to the [libmicrohttpd manual](https://www.gnu.org/software/libmicrohttpd/manual/libmicrohttpd.html#Simple-HTTP-server-example).
 
 ## Why Choose C for This Project?
 
