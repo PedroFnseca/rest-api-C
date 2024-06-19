@@ -3,11 +3,11 @@
 #include <string.h>
 #include <libpq-fe.h>
 
-#define database "postgres"
-#define user "postgres"
-#define password "rest-api-c-123"
-#define host "db.lkpuboamwslpkjbywsbi.supabase.co"
-#define port "5432"
+#define database "*****"
+#define user "*****"
+#define password "*****"
+#define host "***.***.***.***"
+#define port "****"
 
 char *executeQueryToJson(const char *query);
 
