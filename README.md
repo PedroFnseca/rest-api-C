@@ -47,19 +47,13 @@ In this project, I'm using a Postgres database to store user information. The da
    - Update the variables with your database credentials.
 
 4. Running the Server:
-   - Using Docker:
+   - Using Docker (Linux):
      ```bash
-     docker build -t rest-api-c .
-     docker run -d -p 8080:80 --name rest-api-c rest-api-c
+      ./scripts/docker_run.sh
      ```
    - Without Docker (Linux):
      ```bash
-     ./main_run.sh
-     ```
-   - Without Docker (Windows):
-     ```bash
-     make
-     ./bin/main
+     ./scripts/main_run.sh
      ```
 
 5. Access the API at http://localhost:8080

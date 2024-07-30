@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ..
+
 CONTAINER_NAME="rest-api-c"
 
 docker rm -f "$CONTAINER_NAME" >/dev/null 2>&1

@@ -46,18 +46,13 @@ Neste projeto, estou usando um banco de dados Postgres para armazenar informaç�
     - Atualize as variáveis com suas credenciais de banco de dados.
 
 4. Executando o Servidor:
-    - Usando Docker:
+    - Usando Docker (Linux):
       ```bash
-      docker build -t rest-api-c .
-      docker run -d -p 8080:80 --name rest-api-c rest-api-c
+      ./docker_run.sh
       ```
     - Sem Docker (Linux):
       ```bash
       ./main_run.sh
-      ```
-    - Sem Docker (Windows):
-      ```bash
-      ./main_run.bat
       ```
 5. Acesse o servidor em `http://localhost:8080/` no seu navegador.
 

@@ -6,4 +6,4 @@ set -e
 
 echo "Executando o programa..."
 
-./bin/main
+../bin/main
