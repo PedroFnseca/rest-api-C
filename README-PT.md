@@ -60,7 +60,6 @@ Neste projeto, estou usando um banco de dados Postgres para armazenar informa√ß√
       ./main_run.bat
       ```
 5. Acesse o servidor em `http://localhost:8080/` no seu navegador.
-```
 
 ## Endpoints
 
