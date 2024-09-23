@@ -1,3 +1,12 @@
+<p align="center">
+
+  <img src="https://img.shields.io/github/last-commit/PedroFnseca/rest-api-C" alt="Last Commit">
+  
+  <img src="https://img.shields.io/github/languages/top/PedroFnseca/rest-api-C" alt="Language">
+
+   <img src="https://hits.sh/github.com/PedroFnseca/rest-api-C.svg?view=today-total" alt="Hits">
+</p>
+
 # A Simple RESTful Web Server in PURE C
 <div align=center>
    <a href="./README-PT.md">
