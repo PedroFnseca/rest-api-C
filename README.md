@@ -32,6 +32,16 @@ My primary goal was to gain a deeper understanding of how APIs function under th
 ## Postgres Database
 In this project, I'm using a Postgres database to store user information. The database is hosted on cloud in the [supabase](https://supabase.com/), and the server communicates with it using the [libpq](https://www.postgresql.org/docs/9.1/libpq.html) library.
 
+## Database Schema
+
+The database schema consists of a single table named `users`. The table has the following columns:
+
+| Column Name | Data Type | Description |
+| ----------- | --------- | ----------- |
+| id          | SERIAL    | Unique identifier for each user. |
+| name        | TEXT      | User's name. |
+| email       | TEXT      | User's email address. |
+
 ## How to Run the Server
 
 ### Prerequisites:
