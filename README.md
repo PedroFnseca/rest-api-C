@@ -56,13 +56,18 @@ In this project, I'm using a Postgres database to store user information. The da
    - Update the variables with your database credentials.
 
 4. Running the Server:
+   - Enter the folder `scripts`:
+     ```bash
+     cd scripts
+     ```
+
    - Using Docker (Linux):
      ```bash
-      ./scripts/docker_run.sh
+      ./docker_run.sh
      ```
    - Without Docker (Linux):
      ```bash
-     ./scripts/main_run.sh
+     ./compiler.sh --run
      ```
 
 5. Access the API at http://localhost:8080
