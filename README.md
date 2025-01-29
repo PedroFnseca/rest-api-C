@@ -90,4 +90,6 @@ This RESTful web server provides the following endpoints.
 - **GET /users/{id}:** Retrieve detailed information about a specific user.
 - **POST /users:** Create a new user.
 - **PUT /users/{id}:** Update information for a specific user.
-- **DELETE /users/{id}:** Delete a user.
+- **DELETE /users/{id}:** Delete a user <img src="https://www.google-analytics.com/collect?v=1&t=event&tid=G-TFXJLYGKZM&cid=555&ec=README&ea=view&el=github" />
+
+
