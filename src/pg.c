@@ -6,11 +6,11 @@
 
 char *executeQueryToJson(const char *query) {
     PGconn *conn = PQconnectdb(
-        "user=" user
-        " password=" password
-        " dbname=" database
-        " host=" host
-        " port=" port
+        "user=" DB_USER
+        " password=" DB_PASSWORD
+        " dbname=" DB_NAME
+        " host=" DB_HOST
+        " port=" DB_PORT
     );
 
     if (PQstatus(conn) != CONNECTION_OK) {

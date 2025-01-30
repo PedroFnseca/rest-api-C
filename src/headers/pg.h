@@ -3,11 +3,11 @@
 
 #include <libpq-fe.h>
 
-#define database "*****"
-#define user "*****"
-#define password "*****"
-#define host "***.***.***.***"
-#define port "****"
+#define DB_NAME "*****"
+#define DB_USER "*****"
+#define DB_PASSWORD "*****"
+#define DB_HOST "***.***.***.***"
+#define DB_PORT "****"
 
 char *executeQueryToJson(const char *query);
 
