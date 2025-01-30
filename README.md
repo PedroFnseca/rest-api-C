@@ -1,3 +1,5 @@
+# A Simple RESTful Web Server in PURE C
+
 <p align="center">
   <img src="https://img.shields.io/github/languages/top/PedroFnseca/rest-api-C" alt="Language">
   <img src="https://hits.sh/github.com/PedroFnseca/rest-api-C.svg?view=today-total" alt="Hits">
@@ -5,18 +7,6 @@
   <img src="https://img.shields.io/github/stars/PedroFnseca/rest-api-C?style=social" alt="Stars">
   <img src="https://img.shields.io/github/forks/PedroFnseca/rest-api-C?style=social" alt="Forks">
 </p>
-
-# A Simple RESTful Web Server in PURE C
-<div align=center>
-   <a href="./README-PT.md">
-   Versão em Português
-   </a>
-   |
-   <a href="https://medium.com/@pedrofnseca/evoluindo-como-desenvolvedor-minha-experi%C3%AAncia-com-a-api-feita-em-c-69b758801c91" target="_blank">
-   Article
-   </a>
-</div>
-<br>
 
 This project implements a **RESTful web server** in **C**, leveraging the [libmicrohttpd](https://www.gnu.org/software/libmicrohttpd/) library. libmicrohttpd is a lightweight, designed for simplicity and efficiency, making it an excellent choice for building low-level web servers.
 
