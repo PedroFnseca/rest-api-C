@@ -117,3 +117,7 @@ Here are some articles I’ve written about this project:
 
 - 📚 [Growing as a Developer: My Experience Building an API in C](https://medium.com/@pedrofnseca/evoluindo-como-desenvolvedor-minha-experi%C3%AAncia-com-a-api-feita-em-c-69b758801c91) *(Written in Portuguese)*
 - 📝 [How to create an rest api using C](https://pedrofnseca.medium.com/how-to-create-an-rest-api-using-c-9150882320d4) *(Written in English)*
+
+<br>
+
+[![Stargazers repo roster for @PedroFnseca/Rest-Api-C](https://reporoster.com/stars/dark/PedroFnseca/rest-api-C)](https://github.com/PedroFnseca/rest-api-C/stargazers)
